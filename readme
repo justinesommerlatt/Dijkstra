@@ -1,0 +1,13 @@
+Projet de synthèse vitrac_sommerlatt_troyon
+
+Si vous avez déjà javafx d'installé sur eclipse faites : 
+
+clique droit sur le projet-> build path-> configure build path-> onglet libraries-> remove tous les .jar concernant javafx -> apply and close
+
+Sinon :
+
+clique droit sur le projet-> build path-> configure build path-> onglet libraries-> remove tous les .jar concernant javafx -> add external jar -> ajouter les .jar de javafx -> apply and close
+
+Avant de lancer le programme pour la 1er fois il faut changer le chemin vers la bibiliothèque dans la méthode System.load() qui se trouve dans le fichier Myclass.java. Il faut mettre le chemin absolu de la bibliothèque qui se trouve dans le dossier lib du projet.
+
+
